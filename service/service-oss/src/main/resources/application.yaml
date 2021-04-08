@@ -1,0 +1,19 @@
+server:
+  port: 8003
+
+spring:
+  application:
+    name: service-oss
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 101.132.132.130:8848
+aliyun:
+  oss:
+    file:
+      endpoint: oss-cn-shanghai.aliyuncs.com
+      keyid: LTAI4GFX4rJhesT7sDPqP9WG
+      keysecret: f8YR4fath1tilBlUPkhCMdHTxkFo76
+      bucketname: studyguli

@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    nacos:
+      server-addr: 101.132.132.130:8848
+  profiles:
+    active: dev
+  application:
+    name: service-statistics
