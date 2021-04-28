@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>common-utils</artifactId>
-
+    <packaging>jar</packaging>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
@@ -22,4 +22,5 @@
             <artifactId>jjwt</artifactId>
         </dependency>
     </dependencies>
+
 </project>

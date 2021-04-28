@@ -5,10 +5,10 @@
     <modules>
         <module>service</module>
         <module>common</module>
-        <module>service/service-cmss</module>
         <module>canal_client</module>
         <module>infrastructure</module>
     </modules>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
